@@ -4,6 +4,8 @@ A thin wrapper around the standard logger. In addition to `Writer` of the
 standard logger, go-daily-log also writes to log files timestamped in the
 format of `2006-01-02`, and rotates them daily.
 
+## Example
+
 ```go
 package main
 
@@ -24,4 +26,8 @@ func main() {
 	http.ListenAndServe(":8080", nil)
 }
 ```
+
+## TODO
+
+- [ ] Unit tests
 
