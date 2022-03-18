@@ -12,7 +12,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/kok-leong-chan/go-daily-log"
+	"github.com/im-kl/go-daily-log"
 )
 
 func main() {
